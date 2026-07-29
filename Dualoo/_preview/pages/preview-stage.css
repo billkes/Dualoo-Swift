@@ -1,0 +1,28 @@
+/* Fixed preview stage for agent.html — viewport == .stage == shot (390×844).
+ * OFFLINE: no remote @import. Load vendor/fonts.css + vendor/tailwind.js from HTML.
+ * Spacing belongs inside .stage only — never on html/body/.stage outer box.
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 390px;
+  height: 844px;
+  overflow: hidden;
+  background: #000;
+}
+
+.stage {
+  width: 390px;
+  height: 844px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
