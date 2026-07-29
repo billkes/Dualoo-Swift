@@ -1,0 +1,21 @@
+---
+description: 本包命名与目录结构约束（dartCodePrefix / 命名混淆规则）
+alwaysApply: true
+---
+
+# 本包命名与目录结构约束（按包定制，请严格遵守）
+
+- `dartCodePrefix` = `dwhkv`（权威值，见 `本包代码组合.json`）。
+- 业务根目录为 `lib/{dartCodePrefix}_{pubspec_name}/`，精确取值见 `主题代码布局.txt`（`LIB_ROOT_FOLDER`）；`lib/` 下仅保留 `main.dart`。
+- 业务根下须有 **≥2 个 `{dartCodePrefix}_主题词` 子目录** 分类源码，禁止单层平铺。
+- 禁止通用目录名与文件名片段（`_screen` / `_models` / `_service` 等），完整清单见 `主题代码布局.txt`（`FORBIDDEN_*`）。
+- 完整差异化约定见 `Flutter差异化开发规则.md`。
+
+[CSV Naming Obfuscation v2 — REQUIRED]
+- namingObfuscationRule (from CSV): 辅音核心策略
+- ruleKey: consonant_core
+- Read 命名混淆规则.md — dynamic key per identifier (no pre-baked affix).
+- dartCodePrefix / packageSeed in 本包代码组合.json is the package seed only.
+- Affix position: prefix | suffix | infix | mirror (see namingRuleMeta.affix).
+- Affix length varies within lengthRange; join style per entity (camel/pascal/snake/compact/dot/hyphen).
+- Use transform_identifier() / derive_key() for EVERY namable (folders, files, classes, methods, fields, params, locals).

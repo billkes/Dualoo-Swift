@@ -1,0 +1,41 @@
+# image_prompts — Dualoo
+
+This file lists every raster asset declared by Designer / PM / Resource Layout.
+A uniform PLACEHOLDER PNG has been written to each path. Replace it with a real
+image via Midjourney / DALL-E / Stable Diffusion / Unsplash / Pexels — keep the
+same path so Dart code keeps working.
+
+- total: 4  ·  live: 4  ·  skipped: 0
+
+## 1. dwhkv_brand_logo  (`assets/jxfs_media_raster_ke/dwhkv_brand_logo.png`)
+- role: `logo`
+- recommendedSize: 1024×1024
+- paletteAnchors: `#DC2626` `#F87171` `#FEF2F2`
+- description: Brand logo mark for shell chrome / Welcome
+- prompt: An image asset for the iOS app 'Dualoo', slot role 'logo' (Brand logo mark for shell chrome / Welcome). Dominant palette anchors: #DC2626, #F87171, #FEF2F2. No baked-in text, watermark, logo, or trademark. No real-person likeness. Safe for App Store review.
+- sourceHints: Midjourney / DALL-E / Stable Diffusion
+
+## 2. dwhkv_launch_light  (`assets/jxfs_media_raster_ke/dwhkv_launch_light.png`)
+- role: `splash_background`
+- recommendedSize: 1125×2436
+- paletteAnchors: `#DC2626` `#F87171` `#FEF2F2`
+- description: iOS LaunchScreen / LaunchVeil light appearance (1125×2436)
+- prompt: A vertical full-bleed splash background for the iOS app 'Dualoo', tall composition with a clear focal zone in the top third for app title. Motif: 反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light launch splash full-bleed. Dominant palette anchors: #DC2626, #F87171, #FEF2F2. No baked-in text, watermark, logo, or trademark. No real-person likeness. Safe for App Store review.
+- sourceHints: Midjourney v6 — vertical 1242×2688 · Unsplash search: "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light launch splash full-bleed"
+
+## 3. dwhkv_global_bg_light  (`assets/jxfs_media_raster_ke/dwhkv_global_bg_light.png`)
+- role: `global_background`
+- recommendedSize: 1242×2688
+- paletteAnchors: `#DC2626` `#F87171` `#FEF2F2`
+- description: Light-theme full-bleed global background for H5 ambient
+- prompt: A subtle global background texture for the iOS app 'Dualoo', low contrast, suitable behind UI cards and lists. Motif: 反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light ambient global background. Dominant palette anchors: #DC2626, #F87171, #FEF2F2. No baked-in text, watermark, logo, or trademark. No real-person likeness. Safe for App Store review.
+- sourceHints: Midjourney v6 — vertical 1242×2688 · Unsplash search: "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light ambient global background"
+
+## 4. dwhkv_panel_retry_offline  (`assets/jxfs_media_raster_ke/dwhkv_panel_retry_offline.png`)
+- role: `retry_error`
+- recommendedSize: 320×240
+- paletteAnchors: `#DC2626` `#F87171` `#FEF2F2`
+- description: WebView load error fallback illustration
+- prompt: An image asset for the iOS app 'Dualoo', slot role 'retry_error' (WebView load error fallback illustration). Dominant palette anchors: #DC2626, #F87171, #FEF2F2. No baked-in text, watermark, logo, or trademark. No real-person likeness. Safe for App Store review.
+- sourceHints: Midjourney / DALL-E / Stable Diffusion
+

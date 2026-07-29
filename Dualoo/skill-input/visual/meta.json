@@ -1,0 +1,27 @@
+{
+  "app": "Dualoo",
+  "visualDeckSelections": {
+    "designStyle": "Sketch Hand-Drawn (Mobile)",
+    "colorPalette": "Restaurant/Food Service",
+    "skinMode": "浅",
+    "fontPairing": "Soft Rounded"
+  },
+  "sourceDataDir": "/Users/ios-dev/.cursor/rules/ui-ux-pro-max-skill/src/ui-ux-pro-max/data",
+  "files": {
+    "style": "style.csv",
+    "colors": "colors.csv",
+    "typography": "typography.csv"
+  },
+  "matchKeys": {
+    "style": "Style Category",
+    "colors": "Product Type",
+    "typography": "Font Pairing Name"
+  },
+  "authority": {
+    "shapeMotion": "style.csv",
+    "color": "colors.csv",
+    "typography": "typography.csv",
+    "skinMode": "visualDeckSelections.skinMode"
+  },
+  "note": "Exactly one data row per CSV. style.csv is shape/motion only (palette/font/skin columns stripped). Use colors.csv for color, typography.csv for fonts, meta.skinMode for 浅|深|深浅. Do not search a full skill corpus."
+}

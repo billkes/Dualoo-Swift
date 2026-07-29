@@ -1,0 +1,30 @@
+---
+description: 本包 Component Kit 铁律 — baseline → Selection → 逐 id md（iron-5）
+globs: lib/**,data/static/component_kit/**,本包视觉锁.json,design-system/**
+alwaysApply: true
+---
+
+# 本包 Component Kit 铁律（iron-5）
+
+## 权威来源
+- `data/static/component_kit/`（已复制到本 workspace）
+- `本包视觉锁.json` → componentSelection, baselineReference, packageTokenOverrides
+- `design-system/*/pages/*.md` — 屏幕级布局与场景槽位
+
+## 实现顺序（MUST）
+0. `component_kit/baseline.md` §H5（data/static/component_kit/baseline.md#h5）
+1. 视觉锁 componentSelection 所列 id — 逐个读 `{category}/{id}.md`
+2. 屏幕级布局（`design-system/*/pages/*.md` + 视觉锁场景字段）
+
+## 边界
+- 只用 Selection 内共享 UI 组件
+
+## Plan Gate（SEL 规则摘要）
+- 视觉锁 componentSelection = Overrides / packageTokenOverrides
+- 功能场景必选组件见 selection_requirements.py（Export/IAP/Welcome/列表/h5 shell）
+- Overrides typography/color token 须在 本包视觉锁 中定义
+- 先读 kit md，再写 Button / TextField / Chip / SnackBar
+- Export Card / IAP Store / Welcome Gate 场景规格：视觉锁字段 + `pages/*.md`
+
+## 本包入选组件
+- （从 `本包视觉锁.json` → componentSelection 补全）

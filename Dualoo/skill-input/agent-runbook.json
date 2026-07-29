@@ -1,0 +1,124 @@
+{
+  "app": "Dualoo",
+  "pack_type": "h5_swift_shell",
+  "generated_at": "2026-07-29T22:17:44+08:00",
+  "note": "Review snapshots filled after lock.dimensions. Runtime Agent steps re-fill prompts before each call.",
+  "execution_order": [
+    {
+      "seq": 1,
+      "step_id": "agent.plan.spec",
+      "label": "Agent · 功能/产品文档 + Legal",
+      "phase": "plan_spec",
+      "prompt": "skill-input/agent-prompts/01-agent.plan.spec.md",
+      "prerequisites": [
+        "prepare.context done",
+        "lock.dimensions done",
+        "sync.distilled done",
+        "skill-input/visual/*.csv（单行）"
+      ],
+      "deliverables": [
+        "功能文档.md",
+        "Dualoo Privacy Agreement.md",
+        "Dualoo User Agreement.md"
+      ]
+    },
+    {
+      "seq": 2,
+      "step_id": "agent.design",
+      "label": "Agent · 读 visual CSV 整理设计系统",
+      "phase": "design",
+      "prompt": "skill-input/agent-prompts/02-agent.design.md",
+      "prerequisites": [
+        "agent.plan.spec done",
+        "功能文档.md",
+        "skill-input/visual/style.csv · colors.csv · typography.csv · meta.json"
+      ],
+      "deliverables": [
+        "design-system/*/MASTER.md (+ stacks/briefs · Scene Briefs)",
+        "skill-adapt/* · design-audit.md"
+      ]
+    },
+    {
+      "seq": 3,
+      "step_id": "agent.plan.pack",
+      "label": "Agent · 登记信息 + 视觉锁",
+      "phase": "plan_pack",
+      "prompt": "skill-input/agent-prompts/03-agent.plan.pack.md",
+      "prerequisites": [
+        "agent.design done",
+        "功能文档.md",
+        "skill-adapt/design-audit.md"
+      ],
+      "deliverables": [
+        "本包登记信息.json",
+        "本包视觉锁.json"
+      ]
+    },
+    {
+      "seq": 4,
+      "step_id": "agent.assets",
+      "label": "Agent · 真图生成/替换（task「真图」=1）",
+      "phase": "assets",
+      "prompt": "skill-input/agent-prompts/04-agent.assets.md",
+      "prerequisites": [
+        "agent.plan.pack done",
+        "本包视觉锁.json",
+        "image_prompts.json（流水线写入；真图=1 时 GenerateImage 替换）"
+      ],
+      "deliverables": [
+        "shell rasters (浅): logo · launch_light · global_bg_light · retry",
+        "image_prompts.json (replaced)"
+      ]
+    },
+    {
+      "seq": 5,
+      "step_id": "agent.html",
+      "label": "Agent · Inventory 全量 HTML 视觉（截图严审）",
+      "phase": "preview",
+      "prompt": "skill-input/agent-prompts/05-agent.html.md",
+      "prerequisites": [
+        "agent.assets done（真图=0 时流水线跳过，用 tokens/CSS）",
+        "agent.design done",
+        "功能文档.md Screen Inventory",
+        "design-system · skill-adapt · 本包视觉锁.json"
+      ],
+      "deliverables": [
+        "_preview/pages/*.html（Inventory 全量）",
+        "APPROVAL.md（全 PASS）· FREEZE.md · _shots/",
+        "vendor/（本地 Tailwind + fonts，随 snippet 复制）"
+      ]
+    },
+    {
+      "seq": 6,
+      "step_id": "agent.shell",
+      "label": "Agent · H5 原生壳",
+      "phase": "shell",
+      "prompt": "skill-input/agent-prompts/06-agent.shell.md",
+      "prerequisites": [
+        "agent.html done",
+        "本包登记信息.json",
+        "本包视觉锁.json"
+      ],
+      "deliverables": [
+        "native / Flutter shell + Bridge",
+        "SHELL-APPROVAL.md（自审限次全 PASS）"
+      ]
+    },
+    {
+      "seq": 7,
+      "step_id": "agent.h5",
+      "label": "Agent · 抄 HTML → 功能文档业务流程 + Vitest 快测",
+      "phase": "h5",
+      "prompt": "skill-input/agent-prompts/07-agent.h5.md",
+      "prerequisites": [
+        "agent.html done（流水线不硬验 APPROVAL；以 Agent 自审为准）",
+        "agent.shell done"
+      ],
+      "deliverables": [
+        "h5/ 忠实移植冻结 HTML",
+        "FLOW-APPROVAL.md（本包功能文档业务流程）",
+        "Vitest 快测绿"
+      ]
+    }
+  ]
+}

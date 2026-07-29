@@ -1,0 +1,10 @@
+{
+  "files": [
+    "cli.json",
+    "hooks.json",
+    "hooks/deny_outside_workspace.py",
+    "permissions.json",
+    "rules/path-isolation.mdc",
+    "sandbox.json"
+  ]
+}

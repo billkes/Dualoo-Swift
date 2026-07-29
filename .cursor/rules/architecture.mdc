@@ -1,0 +1,22 @@
+---
+description: 本包架构约束（状态管理 + 架构模式，两个正交维度）
+alwaysApply: true
+---
+
+# 本包架构约束（按包定制，请严格遵守）
+
+[CSV Architecture — REQUIRED]
+状态管理 and 架构模式 are TWO INDEPENDENT dimensions from CSV. Do NOT merge them into one nested label or treat one as a subtype of the other.
+- stateManagement (CSV 状态管理): Provider → internal key `provider`, use provider
+- architecturePattern (CSV 架构模式): MVP → internal key `mvp`; MVP — Model / View / Presenter; use architectureFolders paths only
+- Read 状态管理矩阵.md and 架构模式矩阵.md: state rules and folder layout apply separately per dimension.
+- architecturePattern and stateManagement (from CSV) are AUTHORITATIVE for code structure and state; the combo `architecture` / `folderStyle` keys are anti-correlation tags only — do NOT treat them as a second, conflicting structural directive.
+- Do NOT default to setState unless CSV 状态管理 is SetState.
+- Add required pubspec dependencies for the chosen state package.
+- Document both dimensions in 功能文档.md Code layout section.
+
+[Architecture Folders — LOCKED opaque paths]
+Use ONLY these role directories from 本包维度锁.json / 本包代码组合.json. Do NOT create semantic dirs ({prefix}_models/, _controllers/, etc.).
+- models: `dwhkv_pulse_node/` (stub: `dwhkv_sage_nest_anchor.dart`)
+- presenters: `dwhkv_prism_pulse/` (stub: `dwhkv_quill_port_anchor.dart`)
+- views: `dwhkv_quill_vault/` (stub: `dwhkv_quill_wave_anchor.dart`)

@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A27DF3F9B51F7EB593B714 /* DualooSeedAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A335976E3E4F2A7A7351E83 /* DualooSeedAssets.swift */; };
+		109F49908977910B03E8F552 /* WebShellViewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DA3938B88BB2870B00BDC /* WebShellViewing.swift */; };
+		15179A02E02F0F4B3C885D21 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD850D6EDD9B22AE87686CED /* IAPManager.swift */; };
+		47C7099CE4B6EC05598C1F1A /* DualooShellConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C74E6BAD85017BDB7A317 /* DualooShellConfig.swift */; };
+		4DF95BA6F774D2D39AACDBCC /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82BDB6F2EB532575710DE2E /* ImagePickerCoordinator.swift */; };
+		523297319BC8BCB454C49F8F /* DualooFileVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395EFBB54F0A3DF9BD4A6B43 /* DualooFileVault.swift */; };
+		808651284C8367D07CDD992C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7338CC6BA4D5347D1D3B7115 /* README.md */; };
+		89A95D388713B6EE6DB1D83C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5DF476C08C39ABF99B8C47 /* AppDelegate.swift */; };
+		89E1D4944D44237DDCE0C608 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4087545D75A7B15726DC82BC /* WebViewController.swift */; };
+		8BFF3DB44CA4E72BA30B5D23 /* WebBridgeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCBD2FE74E56791720FE92 /* WebBridgeHandler.swift */; };
+		91B328230B187B3696E67247 /* DualooWebViewDeflavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD01DED118E3252A922A1B /* DualooWebViewDeflavor.swift */; };
+		97C8C9D038E1687B24149343 /* WebContentResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DD1F4798FA7EFF1D11D988 /* WebContentResolver.swift */; };
+		A3AB6A8CBB7FECA8A4C7A9E7 /* Dualoo.html in Resources */ = {isa = PBXBuildFile; fileRef = 25115AA7B49A0295A034458E /* Dualoo.html */; };
+		AC603341DB871CC0C013E8AD /* WebContentSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4127BF634F59FDC6FC394 /* WebContentSource.swift */; };
+		AF0E0DA10F058933D08E1CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C1F4474531ECF67660E52A /* LaunchScreen.storyboard */; };
+		B6D2EFD818CBDB2D5C413D9F /* WebShellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3031543194B81A429F12DE8 /* WebShellViewModel.swift */; };
+		BA457343CFC2F45FE865B92D /* AudioRecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25CC7AB0793B84D50120BF /* AudioRecorderManager.swift */; };
+		CB01F7E652531E7A753341FA /* DualooAssetScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD9CD6023248C432053391 /* DualooAssetScheme.swift */; };
+		D1EB7EEAB69F1560D01827C5 /* FeedbackMailComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE4F1F2FE60B346771D1128 /* FeedbackMailComposer.swift */; };
+		E43FDB6937F2319F12A20644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DECB3E79F4A1B6A4B2F421 /* Assets.xcassets */; };
+		EDD06C287271F57CDBB19F45 /* UIViewController+TopMost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94476D342A3E1469596F57 /* UIViewController+TopMost.swift */; };
+		F3F7074FFC32CA5D629B2A53 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B230FE06EBFA02C89F4DB0A /* PermissionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00DD1F4798FA7EFF1D11D988 /* WebContentResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentResolver.swift; sourceTree = "<group>"; };
+		1A335976E3E4F2A7A7351E83 /* DualooSeedAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualooSeedAssets.swift; sourceTree = "<group>"; };
+		25115AA7B49A0295A034458E /* Dualoo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Dualoo.html; sourceTree = "<group>"; };
+		2B230FE06EBFA02C89F4DB0A /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		2DBD9CD6023248C432053391 /* DualooAssetScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualooAssetScheme.swift; sourceTree = "<group>"; };
+		33360E99727A15ED834C2BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36D4127BF634F59FDC6FC394 /* WebContentSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentSource.swift; sourceTree = "<group>"; };
+		395EFBB54F0A3DF9BD4A6B43 /* DualooFileVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualooFileVault.swift; sourceTree = "<group>"; };
+		4087545D75A7B15726DC82BC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		4ADD01DED118E3252A922A1B /* DualooWebViewDeflavor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualooWebViewDeflavor.swift; sourceTree = "<group>"; };
+		50DECB3E79F4A1B6A4B2F421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53992B3DCA1B8FB47C3B3F8D /* Dualoo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Dualoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0DA3938B88BB2870B00BDC /* WebShellViewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebShellViewing.swift; sourceTree = "<group>"; };
+		5CE4F1F2FE60B346771D1128 /* FeedbackMailComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackMailComposer.swift; sourceTree = "<group>"; };
+		6F25CC7AB0793B84D50120BF /* AudioRecorderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderManager.swift; sourceTree = "<group>"; };
+		7338CC6BA4D5347D1D3B7115 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C94476D342A3E1469596F57 /* UIViewController+TopMost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMost.swift"; sourceTree = "<group>"; };
+		8ADCBD2FE74E56791720FE92 /* WebBridgeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBridgeHandler.swift; sourceTree = "<group>"; };
+		A95C79445B23DA80F1831940 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		AF5DF476C08C39ABF99B8C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE1C74E6BAD85017BDB7A317 /* DualooShellConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualooShellConfig.swift; sourceTree = "<group>"; };
+		CD850D6EDD9B22AE87686CED /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		D3031543194B81A429F12DE8 /* WebShellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebShellViewModel.swift; sourceTree = "<group>"; };
+		D82BDB6F2EB532575710DE2E /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
+		FDE55158613EE45F932CB268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		000ECDC46E10B8C0E977F97D /* Dualoo */ = {
+			isa = PBXGroup;
+			children = (
+				AF5DF476C08C39ABF99B8C47 /* AppDelegate.swift */,
+				50DECB3E79F4A1B6A4B2F421 /* Assets.xcassets */,
+				25115AA7B49A0295A034458E /* Dualoo.html */,
+				FDE55158613EE45F932CB268 /* Info.plist */,
+				7338CC6BA4D5347D1D3B7115 /* README.md */,
+				15D918F2406551854EF43459 /* Bridge */,
+				F4E1EAA13D5BAFE6213950BB /* dwhkv_ember_pulse */,
+				C6D9D71756FA0BD5A64F417E /* dwhkv_pulse_mesh */,
+				01EDC02816EBC4B32C7EEE2D /* dwhkv_quill_dock */,
+				85C1F4474531ECF67660E52A /* LaunchScreen.storyboard */,
+				A2EEC130893F2DA47279805C /* SeedBundle */,
+			);
+			path = Dualoo;
+			sourceTree = "<group>";
+		};
+		01EDC02816EBC4B32C7EEE2D /* dwhkv_quill_dock */ = {
+			isa = PBXGroup;
+			children = (
+				E1B63BFC005CFBCE3974960C /* dwhkv_quill_dock_leaf */,
+			);
+			path = dwhkv_quill_dock;
+			sourceTree = "<group>";
+		};
+		0721D115A18E988D392D5441 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				000ECDC46E10B8C0E977F97D /* Dualoo */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		15D918F2406551854EF43459 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				6F25CC7AB0793B84D50120BF /* AudioRecorderManager.swift */,
+				2DBD9CD6023248C432053391 /* DualooAssetScheme.swift */,
+				395EFBB54F0A3DF9BD4A6B43 /* DualooFileVault.swift */,
+				1A335976E3E4F2A7A7351E83 /* DualooSeedAssets.swift */,
+				BE1C74E6BAD85017BDB7A317 /* DualooShellConfig.swift */,
+				4ADD01DED118E3252A922A1B /* DualooWebViewDeflavor.swift */,
+				5CE4F1F2FE60B346771D1128 /* FeedbackMailComposer.swift */,
+				CD850D6EDD9B22AE87686CED /* IAPManager.swift */,
+				D82BDB6F2EB532575710DE2E /* ImagePickerCoordinator.swift */,
+				2B230FE06EBFA02C89F4DB0A /* PermissionManager.swift */,
+				7C94476D342A3E1469596F57 /* UIViewController+TopMost.swift */,
+				8ADCBD2FE74E56791720FE92 /* WebBridgeHandler.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		1F30E8BF1A3685D51B97576F /* dwhkv_pulse_mesh_leaf */ = {
+			isa = PBXGroup;
+			children = (
+				5B0DA3938B88BB2870B00BDC /* WebShellViewing.swift */,
+				4087545D75A7B15726DC82BC /* WebViewController.swift */,
+			);
+			path = dwhkv_pulse_mesh_leaf;
+			sourceTree = "<group>";
+		};
+		7F183D434E1E4DDC0A640762 /* dwhkv_ember_pulse_leaf */ = {
+			isa = PBXGroup;
+			children = (
+				00DD1F4798FA7EFF1D11D988 /* WebContentResolver.swift */,
+				36D4127BF634F59FDC6FC394 /* WebContentSource.swift */,
+			);
+			path = dwhkv_ember_pulse_leaf;
+			sourceTree = "<group>";
+		};
+		7FD2A3EFA2C04F1509C3F7A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53992B3DCA1B8FB47C3B3F8D /* Dualoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EEC130893F2DA47279805C /* SeedBundle */ = {
+			isa = PBXGroup;
+			children = (
+				A95C79445B23DA80F1831940 /* .gitkeep */,
+			);
+			path = SeedBundle;
+			sourceTree = "<group>";
+		};
+		C6D9D71756FA0BD5A64F417E /* dwhkv_pulse_mesh */ = {
+			isa = PBXGroup;
+			children = (
+				1F30E8BF1A3685D51B97576F /* dwhkv_pulse_mesh_leaf */,
+			);
+			path = dwhkv_pulse_mesh;
+			sourceTree = "<group>";
+		};
+		C7470633841B61E5D6E7E820 = {
+			isa = PBXGroup;
+			children = (
+				0721D115A18E988D392D5441 /* ios */,
+				7FD2A3EFA2C04F1509C3F7A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1B63BFC005CFBCE3974960C /* dwhkv_quill_dock_leaf */ = {
+			isa = PBXGroup;
+			children = (
+				D3031543194B81A429F12DE8 /* WebShellViewModel.swift */,
+			);
+			path = dwhkv_quill_dock_leaf;
+			sourceTree = "<group>";
+		};
+		F4E1EAA13D5BAFE6213950BB /* dwhkv_ember_pulse */ = {
+			isa = PBXGroup;
+			children = (
+				7F183D434E1E4DDC0A640762 /* dwhkv_ember_pulse_leaf */,
+			);
+			path = dwhkv_ember_pulse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		852762EBF284D671401E1AAB /* Dualoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03064CE882380AC0CD2A5696 /* Build configuration list for PBXNativeTarget "Dualoo" */;
+			buildPhases = (
+				BB18D8171F16C2FC831F8053 /* Sources */,
+				4514AD99DE8ECA6F92151DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dualoo;
+			packageProductDependencies = (
+			);
+			productName = Dualoo;
+			productReference = 53992B3DCA1B8FB47C3B3F8D /* Dualoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E18844E649B625E921BB915F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					852762EBF284D671401E1AAB = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 594F1D28D61835CF9E27F9B7 /* Build configuration list for PBXProject "Dualoo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C7470633841B61E5D6E7E820;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7FD2A3EFA2C04F1509C3F7A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				852762EBF284D671401E1AAB /* Dualoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4514AD99DE8ECA6F92151DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43FDB6937F2319F12A20644 /* Assets.xcassets in Resources */,
+				A3AB6A8CBB7FECA8A4C7A9E7 /* Dualoo.html in Resources */,
+				AF0E0DA10F058933D08E1CDB /* LaunchScreen.storyboard in Resources */,
+				808651284C8367D07CDD992C /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB18D8171F16C2FC831F8053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A95D388713B6EE6DB1D83C /* AppDelegate.swift in Sources */,
+				BA457343CFC2F45FE865B92D /* AudioRecorderManager.swift in Sources */,
+				CB01F7E652531E7A753341FA /* DualooAssetScheme.swift in Sources */,
+				523297319BC8BCB454C49F8F /* DualooFileVault.swift in Sources */,
+				00A27DF3F9B51F7EB593B714 /* DualooSeedAssets.swift in Sources */,
+				47C7099CE4B6EC05598C1F1A /* DualooShellConfig.swift in Sources */,
+				91B328230B187B3696E67247 /* DualooWebViewDeflavor.swift in Sources */,
+				D1EB7EEAB69F1560D01827C5 /* FeedbackMailComposer.swift in Sources */,
+				15179A02E02F0F4B3C885D21 /* IAPManager.swift in Sources */,
+				4DF95BA6F774D2D39AACDBCC /* ImagePickerCoordinator.swift in Sources */,
+				F3F7074FFC32CA5D629B2A53 /* PermissionManager.swift in Sources */,
+				EDD06C287271F57CDBB19F45 /* UIViewController+TopMost.swift in Sources */,
+				8BFF3DB44CA4E72BA30B5D23 /* WebBridgeHandler.swift in Sources */,
+				97C8C9D038E1687B24149343 /* WebContentResolver.swift in Sources */,
+				AC603341DB871CC0C013E8AD /* WebContentSource.swift in Sources */,
+				B6D2EFD818CBDB2D5C413D9F /* WebShellViewModel.swift in Sources */,
+				109F49908977910B03E8F552 /* WebShellViewing.swift in Sources */,
+				89E1D4944D44237DDCE0C608 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85C1F4474531ECF67660E52A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33360E99727A15ED834C2BF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D617692374E9E0C4C048795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5F9C617D26C499155BE723A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Dualoo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = ios/Dualoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.duckegg.ios;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = duckeggkaifaProfile;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE6829899D7B994498712EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Dualoo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = ios/Dualoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.duckegg.ios;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = duckeggkaifaProfile;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F935D6242AC46794C4D8980F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03064CE882380AC0CD2A5696 /* Build configuration list for PBXNativeTarget "Dualoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F9C617D26C499155BE723A /* Debug */,
+				DE6829899D7B994498712EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		594F1D28D61835CF9E27F9B7 /* Build configuration list for PBXProject "Dualoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F935D6242AC46794C4D8980F /* Debug */,
+				8D617692374E9E0C4C048795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E18844E649B625E921BB915F /* Project object */;
+}

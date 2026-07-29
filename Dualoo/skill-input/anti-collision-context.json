@@ -1,0 +1,77 @@
+{
+  "sameBatchUsed": [
+    {
+      "name": "Angloo",
+      "themeAngle": "Theme: 角度卡; Track: 休闲生活; Audience: 喜欢用拍照练构图的年轻人; Core scene: 抽角度指令教学连拍; Local feature: 四角度挑战对照评分; Product flow: Draw an angle teaching card (top/low/eye/side), capture the same subject through Bridge camera, vault frames into an angle library, run a four-angle challenge wall and rate coverage for composition drills."
+    },
+    {
+      "name": "Foldoo",
+      "themeAngle": "Theme: 折纸步骤库; Track: 手作兴趣; Audience: 想跟做学折纸的初学者; Core scene: 分步教学跟做折纸; Local feature: 步骤路径点亮评分; Product flow: Open a fold teaching path, follow each crease step with Bridge camera proof shots, tick learning checkpoints, vault finished pieces into a fold library, and score step-path completion.",
+      "visualFingerprint": {
+        "primary": "",
+        "accent": "",
+        "background": "",
+        "heading": "",
+        "body": "",
+        "pattern": "",
+        "style": "",
+        "category": ""
+      }
+    },
+    {
+      "name": "Notioo",
+      "themeAngle": "Theme: 拍摄参数备忘; Track: 摄影创作; Audience: 从手机拍到进阶机身的摄影爱好者; Core scene: 现场拍摄参数备忘; Local feature: 机型参数配置评分; Product flow: Snap a reference frame via Bridge camera, memo the scene's advanced exposure ISO shutter aperture stack, pick recommended gear from phone to pro body, vault parameter cards, and score setup reuse for later shoots."
+    }
+  ],
+  "historicalAvoid": [
+    "Theme: 离线学术演讲控制系统：时间映射滚动与语速超时预警; Track: 校园效率; Audience: 大学生; Core scene: 严格计时的课堂与大学演讲; Local feature: 实时语速监测与结构性超时预警; Product flow: Import or paste a presentation script, run time-mapped auto-scroll teleprompter with live pace monitoring, mark structural overtime segments automatically, log rehearsal notes for university students, attach reference slides per section, export a session rhythm summary card, and review runs by course or date",
+    "Theme: 像素画益智大师; Track: 休闲益智; Audience: 休闲玩家; Core scene: 像素画还原挑战; Local feature: HSV色差逐像素评分与SABCD评级; Product flow: Pick a puzzle category and grid size (8×8, 16×16, or 32×32); choose outline, fill-color, or full master mode; draw on the pixel canvas against a reference; receive per-pixel accuracy scoring with HSV color distance and S/A/B/C/D grade; earn stars to unlock new puzzle packs.",
+    "Theme: 骰子走格派对; Track: 轻社交; Audience: 派对筹备者; Core scene: 骰子走格派对; Local feature: 回合积分评分与格上口算反应知识表演挑战、2-8人同屏赛季排行; Product flow: Pick two 回合积分评分与格上口算反应知识表演挑战、2-8人同屏赛季排行 items to compare 骰子走格派对 side by side for 派对筹备者; highlight deltas; save comparison pairs; export a dual-column summary card.",
+    "Theme: 收藏匣; Track: 休闲生活; Audience: 年轻收集癖; Core scene: 生活藏品收集; Local feature: 系列进度评分; Product flow: Gallery hub + album board + Vault + Stats + story export.",
+    "Theme: Letter Brew 字母调酒拼词; Track: 教育娱乐; Audience: 欧洲年轻学习者; Core scene: 字母气泡拼词调酒; Local feature: Mood稀有度配方评分",
+    "Theme: 虚拟猫咪三态评分养成; Track: 休闲游戏; Audience: 年轻爱猫用户; Core scene: 离线猫咪陪伴互动; Local feature: 三态评分与麦克风学舌",
+    "Theme: 每日灵魂提问; Track: 效率工具; Audience: 想坚持深度自我对话的年轻职场与生活用户; Core scene: 睡前完成一道灵魂提问; Local feature: 按日周期积成可导出灵魂问答年鉴; Product flow: Open today's soul prompt for 睡前完成一道灵魂提问; write one answer into 按日周期积成可导出灵魂问答年鉴; light answered days on a reminder-ring calendar with optional makeup entries; browse the yearly soul Q&A stream and export a yearbook card for 想坚持深度自我对话的年轻职场与生活用户; StoreKit unlocks deep prompt packs, PDF yearbook export, and indigo themes with Restore Purchases in Me.",
+    "Theme: 见面速览备忘档案; Track: 效率工具; Audience: 需要维护熟人关系的职场与生活用户; Core scene: 见面前10秒刷档案卡; Local feature: 忌口礼物偏好与谈话备忘速览; Product flow: Import or paste a script for 见面前10秒刷档案卡; map sections to time budgets in a wizard pipeline; run time-mapped auto-scroll teleprompter with live pace monitoring and structural overtime alerts (忌口礼物偏好与谈话备忘速览); attach reference slides; log rehearsal notes; export a rhythm summary card; review past runs by course or date for 需要维护熟人关系的职场与生活用户.",
+    "Theme: 月度习惯复盘; Track: 个人成长; Audience: 需要追踪长期习惯并进行月度复盘的自我提升者; Core scene: 月末生成习惯复盘报告; Local feature: 习惯打卡与月度数据可视化分析; Product flow: Track daily habits for 月末生成习惯复盘报告; log streak data into 习惯打卡与月度数据可视化分析; highlight completed months on a yearly heatmap with optional milestone badges; browse the monthly habit trends and export a growth summary card for 需要追踪长期习惯并进行月度复盘的自我提升者; StoreKit unlocks premium habit templates, PDF growth reports, and dark themes with Restore Purchases in Me.",
+    "Review-first habit companion: a daily checklist-session of streak-ring check-ins feeds a yearly completion heatmap with milestone badges and a month-end growth review report + exportable growth card. Fully offline, account-free, on-device only.",
+    "Theme: 观星星图; Track: 效率工具; Audience: 目标用户; Core scene: 观星星图; Local feature: 本地观测周期提醒与打卡评分; Product flow: Scroll a horizontal timeline of 观星星图 chapters; add notes per chapter in 本地观测周期提醒与打卡评分; jump to a chapter detail; export a date-range story card for 目标用户.",
+    "Theme: 色彩猎人; Track: 效率工具; Audience: 目标用户; Core scene: 色彩猎人; Local feature: 本地颜色图鉴加通关评分; Product flow: Land on a 色彩猎人 dashboard with KPI tiles for 目标用户; tap a metric to drill into one 本地颜色图鉴加通关评分 record; adjust values inline; snapshot the dashboard as a share card when review is complete. | 本地颜色图鉴加通关评分 | Dashboard / Codex / Clearance",
+    "Theme: 故事主角卡; Track: 效率工具; Audience: 目标用户; Core scene: 故事主角卡; Local feature: 沉淀亲子故事与评分; Product flow: Scroll a horizontal timeline of 故事主角卡 chapters; add notes per chapter in 沉淀亲子故事与评分; jump to a chapter detail; export a date-range story card for 目标用户. | 沉淀亲子故事与评分 | Tales / Notes / Bond",
+    "Theme: 家庭任务榜; Track: 效率工具; Audience: 目标用户; Core scene: 家庭任务榜; Local feature: 本地按成员场景累计家庭积分与到期; Product flow: Open a session checklist for 家庭任务榜; tick lines with budget caps in 本地按成员场景累计家庭积分与到期; attach a photo per line; finish with a session report; optional weekly rollup for 目标用户. | 本地按成员场景累计家庭积分与到期 | Session / History / Members",
+    "Theme: 球鞋图鉴; Track: 效率工具; Audience: 目标用户; Core scene: 球鞋图鉴; Local feature: 沉淀藏品与补货提醒; Product flow: Import or paste a script for 球鞋图鉴; map sections to time budgets in a wizard pipeline; run time-mapped auto-scroll teleprompter with live pace monitoring and structural overtime alerts (沉淀藏品与补货提醒); attach reference slides; log rehearsal notes; export a rhythm summary card; review past runs by course or date for 目标用户. | 沉淀藏品与补货提醒 | Pipeline / Vault / Runs",
+    "Theme: 家务转盘; Track: 效率工具; Audience: 家庭; Core scene: 家务转盘; Local feature: 成员场景家务积分评分; Product flow: Scan a reminder ring calendar for 家务转盘; quick-capture into 成员场景家务积分评分; open day agenda for 家庭; export a period reminder card with due counts. | 成员场景家务积分评分 | Ring / Members / Agenda",
+    "Theme: 宝宝里程碑; Track: 效率工具; Audience: 陪读家长; Core scene: 宝宝里程碑; Local feature: 亲子家长成长周期档案评分; Product flow: Use a single workspace canvas for 宝宝里程碑: edit 亲子家长成长周期档案评分 fields in place for 陪读家长; preview changes live; export the canvas composition card. | 亲子家长成长周期档案评分 | Canvas / Cycles / Marks",
+    "Theme: 藏书阁; Track: 效率工具; Audience: 阅读爱好; Core scene: 藏书阁; Local feature: 阅读场景有声书摘评分; Product flow: Start with Bridge photo capture to create a 阅读场景有声书摘评分 card for 藏书阁; cards stack in an archive lane; open a card to annotate for 阅读爱好; export a collage summary. | 阅读场景有声书摘评分 | Capture / Archive / Preview",
+    "Theme: 魔术入门册; Track: 效率工具; Audience: 魔术爱好; Core scene: 魔术入门册; Local feature: 招式步骤入门进度评分; Product flow: Start with Bridge photo capture to create a 招式步骤入门进度评分 card for 魔术入门册; cards stack in an archive lane; open a card to annotate for 魔术爱好; export a collage summary. | 招式步骤入门进度评分 | Capture / Archive / Preview",
+    "Theme: 宠物召唤; Track: 效率工具; Audience: 宠物主人; Core scene: 宠物召唤; Local feature: 互动场景回头率评分档案; Product flow: Start with Bridge photo capture to create a 互动场景回头率评分档案 card for 宠物召唤; cards stack in an archive lane; open a card to annotate for 宠物主人; export a collage summary. | 互动场景回头率评分档案 | Capture / Archive / Preview",
+    "Theme: 染发护色追踪档案; Track: 美妆个护; Audience: 染发人群; Core scene: 护色周期追踪; Local feature: 水质匹配护色方案; Product flow: Scan a reminder ring calendar for 护色周期追踪; quick-capture into 水质匹配护色方案; open day agenda for 染发人群; export a period reminder card with due counts. | 水质匹配护色方案 | Ring / Plans / Agenda",
+    "Theme: 城市宾果; Track: 户外旅行; Audience: 城市漫步者; Core scene: 旅行探索; Local feature: 本地 checklist 宾果格; Product flow: Scroll a horizontal timeline of 旅行探索 chapters; add notes per chapter in 本地 checklist 宾果格; jump to a chapter detail; export a date-range story card for 城市漫步者.",
+    "Theme: 隐形眼镜适配日记; Track: 健康个护; Audience: 隐形眼镜用户; Core scene: 镜片佩戴适配; Local feature: 场景化镜片适配; Product flow: Import or paste a script for 镜片佩戴适配; map sections to time budgets in a wizard pipeline; run time-mapped auto-scroll teleprompter with live pace monitoring and structural overtime alerts (场景化镜片适配); attach reference slides; log rehearsal notes; export a rhythm summary card; review past runs by course or date for 隐形眼镜用户. | 场景化镜片适配 | Compose / Ledger / Wallet",
+    "Theme: 勇气任务; Track: 心理成长; Audience: 缺乏勇气用户; Core scene: 勇气类型定向突破; Local feature: 勇气类型锁定任务流; Product flow: Open a session checklist for 勇气类型定向突破; tick lines with budget caps in 勇气类型锁定任务流; attach a photo per line; finish with a session report; optional weekly rollup for 缺乏勇气用户. | 勇气类型锁定任务流",
+    "Theme: 垂钓战绩·双角色; Track: 户外垂钓; Audience: 钓鱼爱好者; Core scene: 出海与休闲双模式; Local feature: 角色切换渔获战绩; Product flow: Start with Bridge photo capture to create a 角色切换渔获战绩 card for 出海与休闲双模式; cards stack in an archive lane; open a card to annotate for 钓鱼爱好者; export a collage summary. | 角色切换渔获战绩",
+    "Theme: 票根剧场; Track: 影视文化; Audience: 冷门片爱好者; Core scene: 冷门深度片推荐; Local feature: 影视介绍清单与观后感; Product flow: Use a single workspace canvas for 冷门深度片推荐: edit 影视介绍清单与观后感 fields in place for 冷门片爱好者; preview changes live; export the canvas composition card.",
+    "Theme: 悄悄话板; Track: 轻社交; Audience: 想委婉传话者; Core scene: 委婉传达悄悄话; Local feature: 隐显悄悄板分级展现; Product flow: Pick two 隐显悄悄板分级展现 items to compare 委婉传达悄悄话 side by side for 想委婉传话者; highlight deltas; save comparison pairs; export a dual-column summary card. | 隐显悄悄板分级展现",
+    "Theme: 爱车档案; Track: 用车生活; Audience: 私家车主; Core scene: 私人爱车管理; Local feature: 行驶记录与保养看板; Product flow: Land on a 私人爱车管理 dashboard with KPI tiles for 私家车主; tap a metric to drill into one 行驶记录与保养看板 record; adjust values inline; snapshot the dashboard as a share card when review is complete.",
+    "Theme: 角度卡; Track: 休闲生活; Audience: 喜欢用拍照练构图的年轻人; Core scene: 抽角度指令教学连拍; Local feature: 四角度挑战对照评分; Product flow: Draw an angle teaching card (top/low/eye/side), capture the same subject through Bridge camera, vault frames into an angle library, run a four-angle challenge wall and rate coverage for composition drills. | 四角度挑战对照评分 | Studio / Library / Challenge"
+  ],
+  "seedHints": [],
+  "mustDiffer": [
+    "themeAngle",
+    "visualFingerprint",
+    "colorMood",
+    "navigationPattern"
+  ],
+  "registryBlock": "Already used — do NOT duplicate (your package must differ in theme, Innovation Tab/main feature, and layout/tabs):\n- Temioo: theme \"Theme: 离线学术演讲控制系统：时间映射滚动与语速超时预警; Track: 校园效率; Audience: 大学生;\" | Innovation Tab \"?\" ()\n- Teavoo: theme \"Theme: 像素画益智大师; Track: 休闲益智; Audience: 休闲玩家; Core scene: 像素画\" | Innovation Tab \"?\" ()\n- Rolioo: theme \"Theme: 骰子走格派对; Track: 轻社交; Audience: 派对筹备者; Core scene: 骰子走格\" | Innovation Tab \"?\" ()\n- Seriyy: theme \"Theme: 收藏匣; Track: 休闲生活; Audience: 年轻收集癖; Core scene: 生活藏品收集\" | Innovation Tab \"?\" ()\n- Letioo: theme \"Theme: Letter Brew 字母调酒拼词; Track: 教育娱乐; Audience: 欧洲年轻学习者; C\" | Innovation Tab \"?\" ()\n- Meowio: theme \"Theme: 虚拟猫咪三态评分养成; Track: 休闲游戏; Audience: 年轻爱猫用户; Core scene\" | Innovation Tab \"?\" ()\n- Yeario: theme \"Theme: 每日灵魂提问; Track: 效率工具; Audience: 想坚持深度自我对话的年轻职场与生活用户; C\" | Innovation Tab \"?\" ()\n- Peopio: theme \"Theme: 见面速览备忘档案; Track: 效率工具; Audience: 需要维护熟人关系的职场与生活用户; Co\" | Innovation Tab \"?\" ()\n- Monthio: theme \"Theme: 月度习惯复盘; Track: 个人成长; Audience: 需要追踪长期习惯并进行月度复盘的自我提升者;\" | Innovation Tab \"?\" ()\n- Reviio: theme \"Review-first habit companion: a daily checklist-session of s\" | Innovation Tab \"?\" ()\n- Somaoo: theme \"Theme: 观星星图; Track: 效率工具; Audience: 目标用户; Core scene: 观星星图; \" | Innovation Tab \"?\" ()\n- Palioy: theme \"Theme: 色彩猎人; Track: 效率工具; Audience: 目标用户; Core scene: 色彩猎人; \" | mainFeature \"本地颜色图鉴加通关评分\" | tabs Dashboard / Codex / Clearance\n- Nureoo: theme \"Theme: 故事主角卡; Track: 效率工具; Audience: 目标用户; Core scene: 故事主角卡\" | mainFeature \"沉淀亲子故事与评分\" | tabs Tales / Notes / Bond\n- Taluoo: theme \"Theme: 家庭任务榜; Track: 效率工具; Audience: 目标用户; Core scene: 家庭任务榜\" | mainFeature \"本地按成员场景累计家庭积分与到期\" | tabs Session / History / Members\n- Meloyy: theme \"Theme: 球鞋图鉴; Track: 效率工具; Audience: 目标用户; Core scene: 球鞋图鉴; \" | mainFeature \"沉淀藏品与补货提醒\" | tabs Pipeline / Vault / Runs\n- Spinoo: theme \"Theme: 家务转盘; Track: 效率工具; Audience: 家庭; Core scene: 家务转盘; Lo\" | mainFeature \"成员场景家务积分评分\" | tabs Ring / Members / Agenda\n- Mileoo: theme \"Theme: 宝宝里程碑; Track: 效率工具; Audience: 陪读家长; Core scene: 宝宝里程碑\" | mainFeature \"亲子家长成长周期档案评分\" | tabs Canvas / Cycles / Marks\n- Bookoo: theme \"Theme: 藏书阁; Track: 效率工具; Audience: 阅读爱好; Core scene: 藏书阁; Lo\" | mainFeature \"阅读场景有声书摘评分\" | tabs Capture / Archive / Preview\n- Magioo: theme \"Theme: 魔术入门册; Track: 效率工具; Audience: 魔术爱好; Core scene: 魔术入门册\" | mainFeature \"招式步骤入门进度评分\" | tabs Capture / Archive / Preview\n- Pettoo: theme \"Theme: 宠物召唤; Track: 效率工具; Audience: 宠物主人; Core scene: 宠物召唤; \" | mainFeature \"互动场景回头率评分档案\" | tabs Capture / Archive / Preview\n- Tintoo: theme \"Theme: 染发护色追踪档案; Track: 美妆个护; Audience: 染发人群; Core scene: 护色\" | mainFeature \"水质匹配护色方案\" | tabs Ring / Plans / Agenda\n- Voiioo: theme \"Theme: 城市宾果; Track: 户外旅行; Audience: 城市漫步者; Core scene: 旅行探索;\" | Innovation Tab \"?\" ()\n- Lensoo: theme \"Theme: 隐形眼镜适配日记; Track: 健康个护; Audience: 隐形眼镜用户; Core scene: \" | mainFeature \"场景化镜片适配\" | tabs Compose / Ledger / Wallet\n- Rilooi: theme \"Theme: 勇气任务; Track: 心理成长; Audience: 缺乏勇气用户; Core scene: 勇气类型\" | Innovation Tab \"?\" ()\n- Treioo: theme \"Theme: 垂钓战绩·双角色; Track: 户外垂钓; Audience: 钓鱼爱好者; Core scene: 出\" | Innovation Tab \"?\" ()\n- Moiioo: theme \"Theme: 票根剧场; Track: 影视文化; Audience: 冷门片爱好者; Core scene: 冷门深度\" | Innovation Tab \"?\" ()\n- Paiioo: theme \"Theme: 悄悄话板; Track: 轻社交; Audience: 想委婉传话者; Core scene: 委婉传达悄\" | Innovation Tab \"?\" ()\n- Noiooy: theme \"Theme: 爱车档案; Track: 用车生活; Audience: 私家车主; Core scene: 私人爱车管理\" | Innovation Tab \"?\" ()\n- Angloo: theme \"Theme: 角度卡; Track: 休闲生活; Audience: 喜欢用拍照练构图的年轻人; Core scene:\" | mainFeature \"四角度挑战对照评分\" | tabs Studio / Library / Challenge",
+  "sameBatchVisualFingerprints": [
+    {
+      "primary": "",
+      "accent": "",
+      "background": "",
+      "heading": "",
+      "body": "",
+      "pattern": "",
+      "style": "",
+      "category": ""
+    }
+  ]
+}

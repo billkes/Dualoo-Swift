@@ -1,0 +1,11 @@
+{
+  "autoRun": {
+    "allow_instructions": [
+      "Allow npm, pip, xcodegen, git, and build tools that stay inside this package git root (the *-Swift|OC|Flutter directory)."
+    ],
+    "block_instructions": [
+      "Block any read, search, glob, or shell that touches paths outside this package git root.",
+      "Block access to other apps under output/, Desktop/*-Swift, or global-brain sessions for other packs."
+    ]
+  }
+}

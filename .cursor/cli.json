@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [],
+    "deny": [
+      "Read(../**)",
+      "Read(../../**)",
+      "Write(../**)",
+      "Write(../../**)",
+      "Read(/Users/*/Desktop/*-Swift/**)",
+      "Read(/Users/*/Desktop/projects/global-brain/**)",
+      "Write(/Users/*/Desktop/*-Swift/**)"
+    ]
+  }
+}

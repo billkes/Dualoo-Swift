@@ -1,0 +1,137 @@
+{
+  "generalReserveSets": {
+    "category": "regular",
+    "label": "非促销专区",
+    "products": [
+      {
+        "index": 1,
+        "price": 2.99,
+        "originalPrice": null,
+        "coins": 305,
+        "name": "Core Resource 1",
+        "tags": [],
+        "remarks": null
+      },
+      {
+        "index": 2,
+        "price": 4.90,
+        "originalPrice": null,
+        "coins": 485,
+        "name": "Core Resource 2",
+        "tags": [],
+        "remarks": null
+      },
+      {
+        "index": 3,
+        "price": 6.99,
+        "originalPrice": null,
+        "coins": 775,
+        "name": "Core Resource 3",
+        "tags": [],
+        "remarks": null
+      },
+      {
+        "index": 4,
+        "price": 9.95,
+        "originalPrice": null,
+        "coins": 1205,
+        "name": "Core Resource 4",
+        "tags": [],
+        "remarks": null
+      },
+      {
+        "index": 5,
+        "price": 12.99,
+        "originalPrice": null,
+        "coins": 1480,
+        "name": "Core Resource 5",
+        "tags": [],
+        "remarks": null
+      },
+      {
+        "index": 6,
+        "price": 19.99,
+        "originalPrice": null,
+        "coins": 2519,
+        "name": "Core Resource 6",
+        "tags": [],
+        "remarks": null
+      },
+      {
+        "index": 7,
+        "price": 29.99,
+        "originalPrice": null,
+        "coins": 4019,
+        "name": "Core Resource 7",
+        "tags": [],
+        "remarks": null
+      },
+      {
+        "index": 8,
+        "price": 49.99,
+        "originalPrice": null,
+        "coins": 6980,
+        "name": "Core Resource 8",
+        "tags": [],
+        "remarks": null
+      },
+      {
+        "index": 9,
+        "price": 99.99,
+        "originalPrice": null,
+        "coins": 15015,
+        "name": "Core Resource 9",
+        "tags": [],
+        "remarks": null
+      }
+    ]
+  },
+  "advancedStockUnits": {
+    "category": "promotional",
+    "label": "限时促销专区",
+    "products": [
+      {
+        "index": 1,
+        "promoPrice": 1.99,
+        "originalPrice": 4.90,
+        "coins": 485,
+        "name": "Special Resource 1"
+      },
+      {
+        "index": 2,
+        "promoPrice": 4.99,
+        "originalPrice": 9.95,
+        "coins": 1205,
+        "name": "Special Resource 2"
+      },
+      {
+        "index": 3,
+        "promoPrice": 7.99,
+        "originalPrice": 14.99,
+        "coins": 1480,
+        "name": "Special Resource 3"
+      },
+      {
+        "index": 4,
+        "promoPrice": 11.95,
+        "originalPrice": 20.99,
+        "coins": 2700,
+        "name": "Special Resource 4"
+      },
+      {
+        "index": 5,
+        "promoPrice": 35.99,
+        "originalPrice": 49.99,
+        "coins": 6980,
+        "name": "Special Resource 5"
+      },
+      {
+        "index": 6,
+        "promoPrice": 79.99,
+        "originalPrice": 99.99,
+        "coins": 15015,
+        "name": "Special Resource 6"
+      }
+    ]
+  }
+}

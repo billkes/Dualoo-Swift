@@ -1,0 +1,46 @@
+{
+  "app": {
+    "name": "Dualoo",
+    "description": "Theme: 反义对拍; Track: 休闲生活; Audience: 喜欢用拍照练概念的年轻人; Core scene: 抽反义词对分拍归档; Local feature: 反义双拍对照评分; Product flow: Draw an antonym prompt, capture left and right opposite frames through Bridge camera, rate contrast on a dual rail board, vault winning pairs, share a before-after strip for concept drills.",
+    "fullName": "Dualoo - Crisp & Opposite",
+    "packType": "h5_swift_shell",
+    "runtime": "swift",
+    "stack": "html-tailwind"
+  },
+  "designerSeeds": {
+    "colorTemperature": "from colors.csv only (see visualDeckSelections.colorPalette)",
+    "shapeLanguage": "Sketch Hand-Drawn (Mobile)",
+    "typographyPersonality": "from typography.csv only (see visualDeckSelections.fontPairing)",
+    "navigationPattern": "bottom tab hub",
+    "heroVisualMotif": "Sketch Hand-Drawn (Mobile) motif",
+    "interactionFlavor": "subtle fade transitions",
+    "iconStyle": "Phosphor outlined regular",
+    "skinMode": "浅"
+  },
+  "visualDeckSelections": {
+    "designStyle": "Sketch Hand-Drawn (Mobile)",
+    "colorPalette": "Restaurant/Food Service",
+    "skinMode": "浅",
+    "fontPairing": "Soft Rounded"
+  },
+  "product": {
+    "themeAngle": "Theme: 反义对拍; Track: 休闲生活; Audience: 喜欢用拍照练概念的年轻人; Core scene: 抽反义词对分拍归档; Local feature: 反义双拍对照评分; Product flow: Draw an antonym prompt, capture left and right opposite frames through Bridge camera, rate contrast on a dual rail board, vault winning pairs, share a before-after strip for concept drills.",
+    "track": "休闲生活",
+    "audience": "喜欢用拍照练概念的年轻人",
+    "coreScene": "抽反义词对分拍归档",
+    "localFeature": "反义双拍对照评分",
+    "themeCn": "反义对拍",
+    "searchQuery": "Dualoo mobile app lifestyle collection hobby album gallery cozy"
+  },
+  "constraints": {
+    "offlineOnly": true,
+    "noLogin": true,
+    "noFeed": false,
+    "iapRequired": true,
+    "businessDepthTier": "L2",
+    "interactionTopology": "T8_reminder_ring",
+    "interactionTopologyLabel": "Reminder ring",
+    "batchId": "TEST-0729",
+    "realAssets": true
+  }
+}

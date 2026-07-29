@@ -1,0 +1,35 @@
+---
+description: 业务代码禁中文 — Agent 自审修（无硬门禁）
+globs: h5/**,_preview/pages/**,ios/**,lib/**,**/*.{vue,ts,tsx,js,html,swift,m,h,dart}
+alwaysApply: true
+---
+
+# 业务代码英文铁律（Agent 自审修 · 流水线不硬门禁）
+
+## 禁止
+
+业务代码与用户可见文案中 **不得出现中文 / CJK**（含注释、字符串字面量、placeholder、demo/seed 默认值）：
+
+- `h5/**`（Vue / TS / CSS 业务源）
+- `_preview/pages/**`（HTML 视觉契约）
+- Native 壳源码（Swift / OC / Flutter 壳侧自有文件）
+
+Locale 固定 **`en-US`**；HTML 使用 `lang="en"`。
+
+## 允许例外（非业务代码）
+
+- `功能文档.md` 内 **产品概述** 中文块（规格要求）
+- 台账 / 登记 JSON、拷入包内的中文规范文档（只读参考，勿抄进业务源）
+- App Store Listing / Legal 协议正文本身须为 **英文**
+
+## 自审修（权威验收）
+
+发现问题 → **当场改成英文** → 在对应 APPROVAL 标 PASS（流水线 **不** 因 CJK 硬失败）：
+
+| 阶段 | 清单 |
+|------|------|
+| `agent.html` | `_preview/pages/APPROVAL.md` · `copy-locale` |
+| `agent.h5` | `h5/FLOW-APPROVAL.md` · `copy-locale` |
+| `agent.shell` | `SHELL-APPROVAL.md` · `copy`（含 no-CJK） |
+
+交付前自检：对上述业务路径扫一遍 CJK；有则修，无则 PASS。

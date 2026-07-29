@@ -1,0 +1,28 @@
+---
+description: 本包编程风格 persona 约束
+alwaysApply: true
+---
+
+# 本包编程风格约束（按包定制，请严格遵守）
+
+[CSV Programming Style — Native implementation (dims 2–5) — REQUIRED]
+- programmingStyle (from CSV 编程风格): 英国人
+- Read 编程人设风格.md; locate the row for this persona.
+- Apply dims 2–5 to every Swift/OC shell source file:
+  2) Style / let-var / access  3) Syntax & iteration
+  4) Control flow & async  5) Method split & optional handling
+- dim-1 Widget split: N/A for native — ignore.
+- dims 6–7 (libLayout / assetLayout): H5 vault & Flutter layout only;
+  native directory names follow architectureFolders + naming rule.
+- Persona dims 2–5 MUST change control-flow/async/method shape — not only folders.
+- Persona MUST NOT override bridgeDeckSelections mechanisms (see 编程人设风格.md).
+- Flutter-only lock fields (dartPackageName, stateManagement, skinBucket) are non-binding.
+
+[CSV Programming Style — Layout (dims 6–7) — REQUIRED]
+- libLayout: `flat_skin_role_helper` — Same as flat_skin_role plus `{prefix}_helper/` sibling for shared UI helpers.
+- assetLayout: `assets_media_split` — Two obfuscated roots: raster vs glyph buckets (naming transform).
+- skinBucket directory: `dwhkv_skin/`
+- pubspec asset roots (ONLY these): `assets/media/`, `assets/media/icons/`
+- assetNamingPattern: transform_identifier(entity=file|folder) when namingRuleMeta present
+- FORBIDDEN basenames (never use): global_background.jpg, global_background.png, splash_background.jpg, splash_background.png
+- Read 本包资源布局.json; all Image.asset paths MUST live under declared roots.

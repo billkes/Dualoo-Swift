@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "skipped": true,
+  "reason": "source_missing_or_disabled",
+  "dest": "skill-input/distilled",
+  "copied_files": [],
+  "generated_at": "2026-07-29T22:17:44+08:00"
+}

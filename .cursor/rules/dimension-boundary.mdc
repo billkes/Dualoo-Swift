@@ -1,0 +1,18 @@
+---
+description: 四维度边界与冲突 tie-break 顺序
+alwaysApply: true
+---
+
+# 四维度边界（命名 > 架构 > 状态 > 编程风格）
+
+[Four Dimensions — Tie-break order]
+- Naming (命名规则): owns identifier surface for `lib/` **and** `assets/`
+  (folders, files, classes, methods, fields, params, locals, enum values,
+  raster paths in 本包资源布局.json when applicable).
+- Architecture (架构模式): owns role folders and their responsibilities;
+  it does NOT decide names — naming rule wraps every folder/class name.
+- State management (状态管理): owns top-level + cross-screen refresh;
+  must not invent new role folders and must not invent identifier styles.
+- Programming style (编程人设): owns HOW code is written (dims 1–5 coding style plus lib/asset layout (dims 6–7))
+  — never overrides names, architecture role semantics, or bridgeDeckSelections.
+- Conflict order: naming > architecture > state mgmt > programming style.

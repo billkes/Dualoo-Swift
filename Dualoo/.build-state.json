@@ -1,0 +1,33 @@
+{
+  "name": "Dualoo",
+  "desc": "Theme: 反义对拍; Track: 休闲生活; Audience: 喜欢用拍照练概念的年轻人; Core scene: 抽反义词对分拍归档; Local feature: 反义双拍对照评分; Product flow: Draw an antonym prompt, capture left and right opposite frames through Bridge camera, rate contrast on a dual rail board, vault winning pairs, share a before-after strip for concept drills.",
+  "dart_name": "dualoo",
+  "pipeline_version": "v3",
+  "pack_type": "h5_swift_shell",
+  "started_at": "2026-07-29T22:17:43.067296",
+  "updated_at": "2026-07-29T22:17:44.133966",
+  "phase_pm_ui_plan": "running",
+  "phase_programmer": "pending",
+  "steps": {
+    "prepare.context": "done",
+    "lock.dimensions": "done",
+    "sync.distilled": "done",
+    "agent.plan.spec": "pending",
+    "agent.design": "pending",
+    "agent.plan.pack": "pending",
+    "agent.assets": "pending",
+    "agent.html": "pending",
+    "agent.shell": "pending",
+    "agent.h5": "pending",
+    "plan.gate": "pending",
+    "dev.h5.build": "pending",
+    "git.plan": "pending",
+    "git.dev": "pending"
+  },
+  "step_prepare_context_started_at": "2026-07-29T22:17:43.068506",
+  "step_prepare_context_duration_s": 0,
+  "step_lock_dimensions_started_at": "2026-07-29T22:17:43.144017",
+  "step_lock_dimensions_duration_s": 0,
+  "step_sync_distilled_started_at": "2026-07-29T22:17:44.133144",
+  "step_sync_distilled_duration_s": 0
+}

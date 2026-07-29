@@ -1,0 +1,128 @@
+{
+  "lockedAt": "2026-07-29T14:17:43Z",
+  "batchId": "TEST-0729",
+  "dartPackageName": "dualoo",
+  "stateManagement": {
+    "key": "provider",
+    "label": "Provider",
+    "enforcement": "hard"
+  },
+  "architecturePattern": {
+    "key": "mvp",
+    "label": "MVP",
+    "enforcement": "hard"
+  },
+  "architectureFolders": {
+    "models": {
+      "role": "models",
+      "folderSuffix": "pulse_node",
+      "folderBasename": "dwhkv_pulse_node",
+      "stubBasename": "dwhkv_sage_nest_anchor",
+      "stubClassSuffix": "Layer"
+    },
+    "views": {
+      "role": "views",
+      "folderSuffix": "quill_vault",
+      "folderBasename": "dwhkv_quill_vault",
+      "stubBasename": "dwhkv_quill_wave_anchor",
+      "stubClassSuffix": "Layer"
+    },
+    "presenters": {
+      "role": "presenters",
+      "folderSuffix": "prism_pulse",
+      "folderBasename": "dwhkv_prism_pulse",
+      "stubBasename": "dwhkv_quill_port_anchor",
+      "stubClassSuffix": "Presenter"
+    }
+  },
+  "namingObfuscationRule": {
+    "value": "辅音核心策略",
+    "dartCodePrefix": "dwhkv",
+    "namingRuleMeta": {
+      "ruleKey": "consonant_core",
+      "packageSeed": "dwhkv",
+      "affix": "prefix",
+      "lengthRange": [
+        2,
+        4
+      ],
+      "joinStyles": {
+        "class": "pascal",
+        "record": "pascal",
+        "method": "camel",
+        "field": "camel",
+        "param": "camel",
+        "local": "camel",
+        "enum_value": "camel",
+        "file": "snake",
+        "folder": "snake"
+      },
+      "batchId": "TEST-0729",
+      "namingObfuscationRule": "辅音核心策略"
+    },
+    "enforcement": "hard"
+  },
+  "skinMode": "浅",
+  "programmingStyle": {
+    "value": "英国人",
+    "enforcement": "soft",
+    "libLayout": "flat_skin_role_helper",
+    "assetLayout": "assets_media_split",
+    "skinBucket": "dwhkv_skin",
+    "assetRoots": [
+      "assets/jxfs_media_raster_ke/",
+      "assets/fknt_media_glyph_er/"
+    ],
+    "assetSlots": [
+      {
+        "slot": "logo",
+        "role": "logo",
+        "path": "assets/jxfs_media_raster_ke/dwhkv_brand_logo.png",
+        "keyword": "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 app logo mark minimal",
+        "description": "Brand logo mark for shell chrome / Welcome",
+        "recommendedSize": "1024×1024"
+      },
+      {
+        "slot": "launch_light",
+        "role": "splash_background",
+        "path": "assets/jxfs_media_raster_ke/dwhkv_launch_light.png",
+        "keyword": "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light launch splash full-bleed",
+        "description": "iOS LaunchScreen / LaunchVeil light appearance (1125×2436)",
+        "recommendedSize": "1125×2436"
+      },
+      {
+        "slot": "global_bg_light",
+        "role": "global_background",
+        "path": "assets/jxfs_media_raster_ke/dwhkv_global_bg_light.png",
+        "keyword": "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light ambient global background",
+        "description": "Light-theme full-bleed global background for H5 ambient",
+        "recommendedSize": "1242×2688"
+      },
+      {
+        "slot": "retry_illustration",
+        "role": "retry_error",
+        "path": "assets/jxfs_media_raster_ke/dwhkv_panel_retry_offline.png",
+        "keyword": "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 offline retry illustration soft",
+        "description": "WebView load error fallback illustration",
+        "recommendedSize": "320×240"
+      }
+    ],
+    "assetNamingPattern": "Each raster file: transform_identifier(entity=file, semantic=<slot>, salt=<slotId>).png under declared assetRoots only.",
+    "forbiddenAssetBasenames": [
+      "global_background.jpg",
+      "global_background.png",
+      "splash_background.jpg",
+      "splash_background.png"
+    ],
+    "h5VaultPattern": "h5_monolith",
+    "h5VaultLayout": "assets_media_split",
+    "bundleVaultDir": "h5_site/dualoo/",
+    "bundleEntryPath": "h5_site/dualoo/index.html",
+    "h5VaultFiles": [
+      "h5_site/dualoo/index.html"
+    ],
+    "h5VaultPatternDesc": "Single `index.html` under `h5_site/{appSlug}/` (vite-plugin-singlefile deploy output — ONLY allowed pattern).",
+    "skinMode": "浅"
+  },
+  "scaffoldFiles": []
+}

@@ -1,0 +1,47 @@
+---
+description: h5_shell 去风味铁律 — L0 baseline + 美化禁区（iron-7）
+globs: assets/dwhkv_vault/**,**/*_baseline.css,**/*_primitives.css,**/*_composites.css,**/*_render*.js,**/*_entry.htm,**/*_core.js
+alwaysApply: true
+---
+
+# h5_shell 去风味铁律（iron-7）
+
+本包 H5 vault：`assets/dwhkv_vault/`。全局 L0 reset 与美化禁区 — **产包后改 CSS/JS 仍须遵守**。
+详规：《H5去风味规范.md》· `component_kit/baseline.md` §H5 · brain `h5-deflavor-interaction-pitfalls`。
+
+## L0 Baseline 不可删（美化只能改色值，不能删选择器）
+
+| 项 | 规则 |
+|----|------|
+| tap-highlight | `-webkit-tap-highlight-color: transparent` |
+| scrollbar | 全局 `::-webkit-scrollbar { display: none }` |
+| user-select | 非 input/textarea 禁用选区与放大镜 |
+| checkbox/radio | **排除** `appearance: none`（Welcome 门闸可见） |
+| safe-area | `:root` 声明 `--safe-*: env(safe-area-inset-*)` |
+| viewport | `viewport-fit=cover` |
+
+## 组件与标签
+
+- 禁裸 styled `button` / `input` / `a`（须 `c-dwhkv-*` kit 类）
+- 禁 `<select>`、`<input type="file/color/date">`
+- 禁 `alert` / `confirm` / `prompt`
+- AppBar `position: fixed`，不随内容滚动
+- 顶栏/底栏/`.page-shell` / `.page-stack` 使用 **LAYOUT:pipeline**（仅 inset + fixed 几何；**不含** stack 内页视觉样式）
+
+## 交互 pitfalls
+
+- `blockFastDoubleTap` **仅 touchend**，禁 touchstart
+- panel / 列表行禁 `stopPropagation` 挡点击
+- 输入 `spellcheck="false"`；键盘后滚入可见区
+- IAP 列表须 scroll-aware tap guard
+
+## 美化禁区（防回归）
+
+- **禁止** `::-webkit-scrollbar { display: block }` 或 `scrollbar-thumb`（任意选择器）
+- **禁止** 在组件 CSS 覆盖 baseline reset 核心项
+- Legal 滚动暗示：仅 mask 渐变（见 `h5-vault-compliance.mdc`）
+
+## 自检
+
+- `verify_h5_deflavor_baseline()` PASS
+- `verify_h5_legal_ui()` PASS（Legal 滚动专项）

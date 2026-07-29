@@ -1,0 +1,50 @@
+{
+  "libLayout": "flat_skin_role_helper",
+  "assetLayout": "assets_media_split",
+  "skinBucket": "dwhkv_skin",
+  "assetRoots": [
+    "assets/jxfs_media_raster_ke/",
+    "assets/fknt_media_glyph_er/"
+  ],
+  "assetSlots": [
+    {
+      "slot": "logo",
+      "role": "logo",
+      "path": "assets/jxfs_media_raster_ke/dwhkv_brand_logo.png",
+      "keyword": "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 app logo mark minimal",
+      "description": "Brand logo mark for shell chrome / Welcome",
+      "recommendedSize": "1024×1024"
+    },
+    {
+      "slot": "launch_light",
+      "role": "splash_background",
+      "path": "assets/jxfs_media_raster_ke/dwhkv_launch_light.png",
+      "keyword": "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light launch splash full-bleed",
+      "description": "iOS LaunchScreen / LaunchVeil light appearance (1125×2436)",
+      "recommendedSize": "1125×2436"
+    },
+    {
+      "slot": "global_bg_light",
+      "role": "global_background",
+      "path": "assets/jxfs_media_raster_ke/dwhkv_global_bg_light.png",
+      "keyword": "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light ambient global background",
+      "description": "Light-theme full-bleed global background for H5 ambient",
+      "recommendedSize": "1242×2688"
+    },
+    {
+      "slot": "retry_illustration",
+      "role": "retry_error",
+      "path": "assets/jxfs_media_raster_ke/dwhkv_panel_retry_offline.png",
+      "keyword": "反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 offline retry illustration soft",
+      "description": "WebView load error fallback illustration",
+      "recommendedSize": "320×240"
+    }
+  ],
+  "assetNamingPattern": "Each raster file: transform_identifier(entity=file, semantic=<slot>, salt=<slotId>).png under declared assetRoots only.",
+  "forbiddenAssetBasenames": [
+    "global_background.jpg",
+    "global_background.png",
+    "splash_background.jpg",
+    "splash_background.png"
+  ]
+}

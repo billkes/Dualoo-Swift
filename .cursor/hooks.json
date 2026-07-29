@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeReadFile": [
+      {
+        "command": "python3 .cursor/hooks/deny_outside_workspace.py",
+        "failClosed": true
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "python3 .cursor/hooks/deny_outside_workspace.py",
+        "failClosed": true
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "python3 .cursor/hooks/deny_outside_workspace.py",
+        "failClosed": true,
+        "matcher": "Read|Shell|Grep|Glob"
+      }
+    ]
+  }
+}
