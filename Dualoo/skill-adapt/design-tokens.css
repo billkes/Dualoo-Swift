@@ -1,0 +1,87 @@
+/* ============================================================
+   Dualoo design tokens — skill-adapt/design-tokens.css
+   Source of truth: skill-input/visual single-row CSVs (orthogonality kept)
+     - colors  : colors.csv row 34  "Restaurant/Food Service"  → ALL hexes below
+     - fonts   : typography.csv row 19 "Soft Rounded"          → font stacks below
+     - shape   : style.csv row 84 "Sketch Hand-Drawn (Mobile)" → radius/outline/shadow/motion ONLY
+     - skin    : meta.json skinMode = 浅 (light only)
+   No hex outside the locked palette. No fonts outside Soft Rounded.
+   ============================================================ */
+
+:root {
+  /* ---- palette (colors.csv · light skin) ---- */
+  --dwhkv-primary: #DC2626;
+  --dwhkv-on-primary: #FFFFFF;
+  --dwhkv-secondary: #F87171;
+  --dwhkv-on-secondary: #0F172A;
+  --dwhkv-accent: #A16207;          /* gold: vault dot, medal, streak, coin */
+  --dwhkv-on-accent: #FFFFFF;
+  --dwhkv-bg: #FEF2F2;              /* paper canvas */
+  --dwhkv-fg: #450A0A;              /* ink: outlines, shadow, text */
+  --dwhkv-card: #FFFFFF;
+  --dwhkv-card-fg: #450A0A;
+  --dwhkv-muted: #F0EDF1;
+  --dwhkv-muted-fg: #64748B;
+  --dwhkv-border: #FECACA;
+  --dwhkv-destructive: #DC2626;
+  --dwhkv-on-destructive: #FFFFFF;
+  --dwhkv-ring: #DC2626;            /* focus ring + today pulse */
+
+  /* derived alphas (from locked hexes only) */
+  --dwhkv-scrim: rgba(69, 10, 10, 0.28);   /* ink scrim for sheets/overlays */
+  --dwhkv-paper-grain: rgba(69, 10, 10, 0.04);
+
+  /* ---- typography (typography.csv · Soft Rounded) ---- */
+  --dwhkv-font-heading: "Varela Round", "Nunito Sans", sans-serif;
+  --dwhkv-font-body: "Nunito Sans", "Varela Round", sans-serif;
+  --dwhkv-text-h1: 28px;
+  --dwhkv-text-h2: 22px;
+  --dwhkv-text-body: 16px;
+  --dwhkv-text-whisper: 12px;
+  --dwhkv-leading: 1.45;
+
+  /* ---- shape (style.csv · Sketch Hand-Drawn) ---- */
+  --dwhkv-radius-card: 15px 25px 20px 10px / 20px 10px 25px 15px;
+  --dwhkv-radius-button: 12px 20px 14px 18px / 18px 14px 20px 12px;
+  --dwhkv-radius-chip: 18px 22px 16px 20px / 20px 16px 22px 18px;
+  --dwhkv-outline-w: 2.5px;
+  --dwhkv-outline-w-thin: 2px;
+  --dwhkv-ink: var(--dwhkv-fg);
+  --dwhkv-shadow-x: 4px;
+  --dwhkv-shadow-y: 4px;
+  --dwhkv-shadow-hard: 4px 4px 0 var(--dwhkv-ink);   /* zero-blur offset shadow */
+  --dwhkv-shadow-hard-sm: 3px 3px 0 var(--dwhkv-ink);
+  --dwhkv-rotate-a: -1deg;
+  --dwhkv-rotate-b: 1deg;
+
+  /* ---- motion (style.csv) ---- */
+  --dwhkv-motion-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dwhkv-d-fast: 140ms;
+  --dwhkv-d-med: 220ms;
+  --dwhkv-d-flip: 320ms;
+  --dwhkv-press-dx: 4px;
+  --dwhkv-press-dy: 4px;
+
+  /* ---- interaction ---- */
+  --dwhkv-touch: 48px;
+
+  /* ---- safe area (L0 deflavor baseline) ---- */
+  --safe-top: env(safe-area-inset-top);
+  --safe-bottom: env(safe-area-inset-bottom);
+  --safe-left: env(safe-area-inset-left);
+  --safe-right: env(safe-area-inset-right);
+}
+
+/* state → color grammar helpers (MASTER §3) */
+.dwhkv-state-pending   { color: var(--dwhkv-muted-fg); border-style: dashed; }
+.dwhkv-state-progress  { color: var(--dwhkv-secondary); }
+.dwhkv-state-done      { color: var(--dwhkv-primary); }
+.dwhkv-state-vault     { color: var(--dwhkv-accent); }
+
+/* error jiggle (style.csv effects) */
+@keyframes dwhkv-jiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-2deg); }
+  75% { transform: rotate(2deg); }
+}
+.dwhkv-jiggle { animation: dwhkv-jiggle 400ms ease-in-out; }

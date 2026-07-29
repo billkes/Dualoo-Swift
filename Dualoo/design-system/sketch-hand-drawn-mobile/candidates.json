@@ -1,0 +1,61 @@
+{
+  "schema": "dualoo.design.candidates/v1",
+  "source": "skill-input/visual single-row CSVs (style.csv colors.csv typography.csv) + meta.json — no skill search",
+  "candidates": [
+    {
+      "id": "sketch-hand-drawn-mobile",
+      "selected": true,
+      "designSystem": {
+        "style": {
+          "name": "Sketch Hand-Drawn (Mobile)",
+          "type": "Mobile",
+          "keywords": ["sketch", "hand-drawn", "wobbly", "paper", "tape", "offset shadow", "scribble", "collage", "post-it"],
+          "shape": {
+            "radiusSets": {
+              "card": "15px 25px 20px 10px / 20px 10px 25px 15px",
+              "button": "12px 20px 14px 18px / 18px 14px 20px 12px",
+              "chip": "18px 22px 16px 20px / 20px 16px 22px 18px"
+            },
+            "outline": { "width": "2-3px", "style": "solid|dashed(pending)" },
+            "shadow": { "kind": "hard-offset", "offset": "4px 4px", "color": "token:Foreground" },
+            "rotation": "-1deg|+1deg alternating"
+          },
+          "motion": {
+            "spring": "cubic-bezier(0.34,1.56,0.64,1)",
+            "press": "translate(4px,4px) shadow-cover",
+            "error": "jiggle -2deg..2deg 400ms",
+            "duration": "140-320ms"
+          },
+          "decor": ["paper grain bg", "SVG scribble arrows", "tape strips", "tacks", "dashed dividers"]
+        },
+        "colors": {
+          "name": "Restaurant/Food Service",
+          "tokens": {
+            "primary": "#DC2626", "onPrimary": "#FFFFFF",
+            "secondary": "#F87171", "onSecondary": "#0F172A",
+            "accent": "#A16207", "onAccent": "#FFFFFF",
+            "background": "#FEF2F2", "foreground": "#450A0A",
+            "card": "#FFFFFF", "cardForeground": "#450A0A",
+            "muted": "#F0EDF1", "mutedForeground": "#64748B",
+            "border": "#FECACA", "destructive": "#DC2626",
+            "onDestructive": "#FFFFFF", "ring": "#DC2626"
+          }
+        },
+        "typography": {
+          "name": "Soft Rounded",
+          "heading": "Varela Round",
+          "body": "Nunito Sans",
+          "weights": { "heading": [400], "body": [400, 600, 700] }
+        },
+        "pattern": "sketch-hand-drawn-mobile"
+      },
+      "skinMode": "浅",
+      "iconStyle": "Phosphor outlined regular",
+      "fit": {
+        "track": "Casual Lifestyle",
+        "audience": "young people training concepts with a camera",
+        "reason": "mobile-first creative/education skin; wobble+tape collage fits the two-polaroid strip and the hand-drawn Drill Ring"
+      }
+    }
+  ]
+}

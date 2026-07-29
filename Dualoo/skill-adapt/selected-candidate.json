@@ -1,0 +1,31 @@
+{
+  "designSystem": {
+    "style": "Sketch Hand-Drawn (Mobile)",
+    "colors": "Restaurant/Food Service",
+    "typography": "Soft Rounded",
+    "pattern": "sketch-hand-drawn-mobile"
+  },
+  "skinMode": "浅",
+  "tokens": {
+    "css": "skill-adapt/design-tokens.css",
+    "palette": {
+      "primary": "#DC2626",
+      "secondary": "#F87171",
+      "accent": "#A16207",
+      "background": "#FEF2F2",
+      "foreground": "#450A0A",
+      "card": "#FFFFFF",
+      "muted": "#F0EDF1",
+      "mutedForeground": "#64748B",
+      "border": "#FECACA",
+      "ring": "#DC2626"
+    },
+    "fonts": { "heading": "Varela Round", "body": "Nunito Sans" }
+  },
+  "master": "design-system/sketch-hand-drawn-mobile/MASTER.md",
+  "pages": {
+    "welcome": "design-system/sketch-hand-drawn-mobile/pages/welcome.md",
+    "hub": "design-system/sketch-hand-drawn-mobile/pages/hub.md"
+  },
+  "source": "skill-input/visual single-row CSVs + meta.json — no skill search"
+}
