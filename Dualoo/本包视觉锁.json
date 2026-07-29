@@ -1,0 +1,161 @@
+{
+  "app": "Dualoo",
+  "generatedBy": "agent.plan.pack",
+  "lockedFrom": "design-system/sketch-hand-drawn-mobile/MASTER.md · skill-adapt/* · skill-input/visual single-row CSVs (audit: skill-adapt/design-audit.md = PASS)",
+  "skinMode": "浅",
+
+  "designerDeckSelections": {
+    "designStyle": "Sketch Hand-Drawn (Mobile)",
+    "colorPalette": "Restaurant/Food Service",
+    "fontPairing": "Soft Rounded",
+    "shapeLanguage": "Sketch Hand-Drawn (Mobile)",
+    "colorTemperature": "Restaurant/Food Service",
+    "paletteNotes": "Appetizing red + warm gold; accent adjusted for WCAG 3:1 (#A16207). Light skin as-is (skinMode 浅).",
+    "typographyPersonality": "Soft Rounded",
+    "navigationPattern": "bottom tab hub",
+    "heroVisualMotif": "Sketch Hand-Drawn (Mobile) motif",
+    "interactionFlavor": "subtle fade transitions",
+    "iconStyle": "Phosphor outlined regular",
+    "skinMode": "浅"
+  },
+
+  "colorTokens": {
+    "primary": "#DC2626", "onPrimary": "#FFFFFF",
+    "secondary": "#F87171", "onSecondary": "#0F172A",
+    "accent": "#A16207", "onAccent": "#FFFFFF",
+    "background": "#FEF2F2", "foreground": "#450A0A",
+    "card": "#FFFFFF", "cardForeground": "#450A0A",
+    "muted": "#F0EDF1", "mutedForeground": "#64748B",
+    "border": "#FECACA",
+    "destructive": "#DC2626", "onDestructive": "#FFFFFF",
+    "ring": "#DC2626",
+    "cssSource": "skill-adapt/design-tokens.css",
+    "stateGrammar": {
+      "pending": "mutedForeground dashed outline",
+      "inProgress": "secondary half-fill",
+      "done": "primary solid fill",
+      "vaultMark": "accent gold dot",
+      "todayPulse": "ring #DC2626"
+    }
+  },
+
+  "paletteAnchors": ["#DC2626", "#F87171", "#FEF2F2"],
+
+  "typographyTokens": {
+    "heading": "Varela Round",
+    "headingWeights": [400],
+    "body": "Nunito Sans",
+    "bodyWeights": [400, 600, 700],
+    "dataFontPairing": "Soft Rounded",
+    "vendorFonts": [
+      "varela-round-latin-400-normal.woff2",
+      "nunito-sans-latin-400-normal.woff2",
+      "nunito-sans-latin-600-normal.woff2",
+      "nunito-sans-latin-700-normal.woff2"
+    ]
+  },
+
+  "shapeMotionLocks": {
+    "radiusCard": "15px 25px 20px 10px / 20px 10px 25px 15px",
+    "radiusButton": "12px 20px 14px 18px / 18px 14px 20px 12px",
+    "radiusChip": "18px 22px 16px 20px / 20px 16px 22px 18px",
+    "outlineWidth": "2-3px solid|dashed",
+    "shadow": "hard offset 4px 4px (buttons 3px 3px) ink, zero blur",
+    "rotation": "-1deg | +1deg alternating cards",
+    "press": "translate(4px,4px) shadow-cover",
+    "error": "jiggle -2deg..2deg 400ms",
+    "spring": "cubic-bezier(0.34,1.56,0.64,1)",
+    "touch": "48px min target"
+  },
+
+  "ambientCanvas": {
+    "mode": "浅",
+    "base": "paper canvas #FEF2F2 with subtle paper grain (CSS noise at ink 4% alpha)",
+    "raster": "assets/jxfs_media_raster_ke/dwhkv_global_bg_light.png (light-mode ambient bg, low-contrast, behind UI cards — visible in previews)",
+    "motif": "two-polaroid pair + hand-drawn scribbles (tape strips, arrows, tacks) at ink/accent <=14% opacity, max 2 per region",
+    "scrim": "ink #450A0A at 28% alpha for sheets/overlays — no opaque black scrims",
+    "noDarkSurfaces": true
+  },
+
+  "componentSelection": {
+    "baselineReference": "data/static/component_kit L0 rules + .cursor/rules/h5-deflavor.mdc (baseline.md not shipped in this workspace; L0 deflavor baseline stands in)",
+    "selection": [
+      "shell/webview_host",
+      "shell/launch_veil",
+      "shell/bridge_toast",
+      "shell/permission_gate",
+      "shell/legal_modal",
+      "shell/bridge_plaza",
+      "shell/keyboard_avoiding",
+      "patterns/welcome_gate",
+      "primitives/button",
+      "primitives/checkbox",
+      "primitives/chip",
+      "primitives/input",
+      "primitives/snackbar"
+    ],
+    "requiredBySpecIndex": ["shell/bridge_toast", "shell/launch_veil", "shell/webview_host"],
+    "sceneMapping": {
+      "patterns/welcome_gate": "#/welcome (3-beat carousel + consent row)",
+      "primitives/button": "all CTAs incl. Store buy rows",
+      "primitives/checkbox": "welcome consent + vault filter toggles",
+      "primitives/chip": "quota chips (free draws/exports) + filter chips",
+      "primitives/input": "pair caption editor (keyboard_avoiding paired)",
+      "primitives/snackbar": "delete Undo + coin toast",
+      "shell/permission_gate": "camera / photo-library denied states (single-line English)",
+      "shell/legal_modal": "#/legal overlay (bundled text, mask-fade scroll hint)",
+      "shell/bridge_plaza": "#/plaza hidden capability matrix",
+      "shell/bridge_toast": "bridge call tri-state feedback",
+      "shell/launch_veil": "shell LaunchVeil until shellReady",
+      "shell/webview_host": "WebView container host",
+      "shell/keyboard_avoiding": "caption edit + any text input"
+    },
+    "packageTokenOverrides": {
+      "typography": { "heading": "Varela Round", "body": "Nunito Sans" },
+      "color": {
+        "buttonPrimary": "#DC2626", "chipActive": "#450A0A",
+        "inputBorder": "#FECACA", "inputFocusRing": "#DC2626",
+        "snackbarBg": "#FFFFFF", "snackbarInk": "#450A0A"
+      }
+    }
+  },
+
+  "assetBrief": [
+    {
+      "role": "logo",
+      "path": "assets/jxfs_media_raster_ke/dwhkv_brand_logo.png",
+      "imagePrompt": "Brand logo mark for the iOS app 'Dualoo' (slot role 'logo', brand mark for shell chrome / Welcome). Two mirrored hand-drawn polaroid frames hinged at centre suggesting opposite halves, sketch style, wobbly ink outline, red #DC2626 and soft red #F87171 on warm paper #FEF2F2. No baked-in text, watermark, logo, or trademark. No real-person likeness. Safe for App Store review. Motif: 反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅.",
+      "recommendedSize": "1024×1024"
+    },
+    {
+      "role": "launch_light",
+      "path": "assets/jxfs_media_raster_ke/dwhkv_launch_light.png",
+      "imagePrompt": "Vertical full-bleed splash background for the iOS app 'Dualoo', tall composition with a clear focal zone in the top third for the title, warm paper texture base #FEF2F2 with hand-drawn scribble arrows and two taped polaroid placeholders near the lower half, red #DC2626 accents, sketch hand-drawn light style. No baked-in text, watermark, logo, or trademark. No real-person likeness. Safe for App Store review. Motif: 反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light launch splash full-bleed.",
+      "recommendedSize": "1125×2436"
+    },
+    {
+      "role": "launch_dark",
+      "path": null,
+      "imagePrompt": "GATED OUT — skinMode=浅: dark launch slot is not produced for this pack (role retained for ledger completeness only).",
+      "recommendedSize": "1125×2436"
+    },
+    {
+      "role": "global_bg_light",
+      "path": "assets/jxfs_media_raster_ke/dwhkv_global_bg_light.png",
+      "imagePrompt": "Subtle global background texture for the iOS app 'Dualoo', low contrast warm paper grain #FEF2F2 with sparse faint hand-drawn scribble motifs (dashed arcs, tiny tape corners) in #FECACA/#F87171 at very low opacity, suitable behind UI cards and lists, light skin. No baked-in text, watermark, logo, or trademark. No real-person likeness. Safe for App Store review. Motif: 反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 light ambient global background.",
+      "recommendedSize": "1242×2688"
+    },
+    {
+      "role": "global_bg_dark",
+      "path": null,
+      "imagePrompt": "GATED OUT — skinMode=浅: dark global background slot is not produced for this pack (role retained for ledger completeness only).",
+      "recommendedSize": "1242×2688"
+    },
+    {
+      "role": "retry_illustration",
+      "path": "assets/jxfs_media_raster_ke/dwhkv_panel_retry_offline.png",
+      "imagePrompt": "Soft offline retry illustration for the iOS app 'Dualoo' (slot role 'retry_error', WebView load error fallback). A hand-drawn polaroid with a dashed unplugged cord and a small scribble arrow forming a circle (retry), warm paper #FEF2F2, ink #450A0A outlines, gentle red #DC2626 accent, friendly sketch style. No baked-in text, watermark, logo, or trademark. No real-person likeness. Safe for App Store review. Motif: 反义对拍 抽反义词对分拍归档 反义双拍对照评分 Sketch Hand-Drawn 浅 offline retry illustration soft.",
+      "recommendedSize": "320×240"
+    }
+  ]
+}

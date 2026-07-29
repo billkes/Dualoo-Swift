@@ -1,0 +1,109 @@
+{
+  "appName": "Dualoo",
+  "bundleId": "test.duckegg.ios",
+  "appSlug": "dualoo",
+  "packType": "h5_swift_shell",
+  "shellRuntime": "swift",
+  "dartCodePrefix": "dwhkv",
+  "skinMode": "浅",
+  "generatedBy": "agent.plan.pack",
+  "generatedAt": "2026-07-29",
+
+  "bundleEntryPath": "h5_site/dualoo/index.html",
+  "h5SiteRoot": "h5_site/dualoo/",
+  "h5SiteEntry": "index.html",
+  "h5EntryUrl": "https://<H5_PROD_HOST>/dualoo/",
+  "h5EntryUrlDev": "http://127.0.0.1:5174/",
+  "h5EntryUrlProd": "https://<H5_PROD_HOST>/dualoo/",
+
+  "assetScheme": "dualoo-asset",
+  "bridgeScheme": "app-bridge",
+  "bridgeChannel": {
+    "name": "dualooBridge",
+    "callback": "dualooBridgeCallback",
+    "note": "Derived from the app name (dualoo.lower()) — LOCKED, NEVER derived from dartCodePrefix dwhkv. H5 and shell must match byte-for-byte."
+  },
+
+  "bridgeDeckSelections": {
+    "webviewEngine": "wkwebview_swift",
+    "bridgeCallStyle": "WKScriptMessageHandler.postMessage(JSON)",
+    "bridgeCallbackStyle": "evaluateJavaScript(callbackId(data))",
+    "bridgeEnvelope": "{action,data} minimal — request {id,action,payload}; success {id,data}; failure {id,error:{code,message}}",
+    "mediaServe": "WKURLSchemeHandler local vault",
+    "bridgeErrorCode": "string enum (PERMISSION_DENIED, USER_CANCELLED, CAMERA_UNAVAILABLE, FILE_NOT_FOUND, IAP_UNAVAILABLE, UNKNOWN)",
+    "bridgeInjectTiming": "WKUserScript atDocumentStart"
+  },
+
+  "bridgeCapabilities": [
+    "shellReady",
+    "pickImage",
+    "saveImageToAlbum",
+    "writeFile",
+    "getDeviceInfo",
+    "copyToClipboard",
+    "getProducts",
+    "purchase"
+  ],
+  "bridgeCapabilitiesDisabled": {
+    "startRecord/stopRecord": "no audio feature in 功能文档",
+    "playAudio": "no audio feature in 功能文档",
+    "readFile": "B05 enabled as writeFile only (strip persist); no text-file reads in 功能文档 flows",
+    "openExternalUrl": "no outbound links at runtime — legal text is bundled (branch A)",
+    "getLegalText": "H5 vault dwhkv_legal_bundled.js is the single legal source (branch A)",
+    "reload/goBack": "hash SPA router owns navigation"
+  },
+
+  "kitDeckSelections": {
+    "kitAtomSet": "baseline-14: btn/press/action/tap · input/field/entry/type · chip/tag/pill/mark · card/tile/panel/cell · appbar/topbar/bar/header · modal/dialog/overlay/veil · toast/notify · mark/icon (project unified, no draw variation)",
+    "kitCssMethodology": "prefix-class c-dwhkv-* (project unified)",
+    "kitAtomGranularity": "baseline (project unified)",
+    "kitDomShape": "label-span-inner / text-only / leading-icon-span / wrapper-div (project unified)",
+    "kitJsPattern": "NS namespace module registry on window, functional-render panels (project unified)",
+    "kitJsNamespace": "NS",
+    "kitStorageAdapter": "localStorage-json slices (dualoo.* keys per 功能文档 §H5 Architecture)",
+    "kitMotionApproach": "css-keyframes per design-tokens (spring / jiggle bands 140-320ms)"
+  },
+  "kitJsNamespaceResolved": "NS",
+
+  "h5StateModel": "centralized-store",
+  "h5RouterPattern": "hash-router",
+  "h5ScreenPattern": "functional-render (h5_modular_full: dwhkv_core.js + dwhkv_panels/dwhkv_render_<slug>.js, >=5 panel files)",
+
+  "h5Vault": {
+    "root": "assets/dwhkv_vault/",
+    "entry": "dwhkv_entry.htm",
+    "core": "dwhkv_core.js",
+    "panelsDir": "dwhkv_panels/",
+    "legalBundled": "dwhkv_panels/dwhkv_legal_bundled.js",
+    "deckSeed": "dwhkv_panels/dwhkv_deck_seed.js",
+    "note": "Legal bundled script loads BEFORE dwhkv_core.js per vault compliance; deck seed is read-only."
+  },
+
+  "legalUrls": {
+    "privacyUrl": "",
+    "termsUrl": "",
+    "runtimeBranch": "A (bundled overlay) — pipeline ships no online URL; empty string is the sanctioned state, links are filled only post-pack by the release step"
+  },
+
+  "platform": {
+    "IPHONEOS_DEPLOYMENT_TARGET": "13.0",
+    "TARGETED_DEVICE_FAMILY": "1",
+    "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
+    "SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD": "NO",
+    "appEntry": "AppDelegate.swift (@main class AppDelegate, UIKit)",
+    "iap": "StoreKit 1 (no StoreKit 2 symbols; transaction dedupe via local fulfilled set)",
+    "photoPicker": "UIImagePickerController (iOS 13 compatible)",
+    "launchPlaceholder": "Base.lproj/LaunchScreen.storyboard 1125x2436 + shell LaunchVeil, scaleAspectFill"
+  },
+
+  "iap": {
+    "iapModuleName": "CoinStore",
+    "reportModuleName": "ContentReportService",
+    "catalogSource": "iap-catalog.generated.md",
+    "firstProductId": "Dualoo00",
+    "tiers": 15,
+    "zones": { "standard": 9, "limitedPromo": 6 },
+    "coinSinks": { "extraDraw": 12, "extraStripSave": 25 },
+    "freeTier": { "freeDrawsPerDay": 3, "freeStripSavesPerDay": 1 }
+  }
+}
